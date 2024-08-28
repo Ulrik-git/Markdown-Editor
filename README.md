@@ -1,24 +1,37 @@
-# markdown-editor
+# Markdown-Editor
 
-## Project setup
-```
+## Description du Projet
+
+**Markdown-Editor** est une application web interactive développée avec Vue.js qui permet aux utilisateurs de rédiger et de prévisualiser du contenu en Markdown en temps réel. Le texte saisi dans la zone de texte est automatiquement rendu dans un aperçu Markdown. De plus, l'application sauvegarde automatiquement le contenu dans le stockage local du navigateur, permettant aux utilisateurs de retrouver leur travail après un rechargement de la page ou une visite ultérieure.
+
+### Fonctionnalités
+
+- **Éditeur Markdown en temps réel** : Le contenu saisi est instantanément converti et affiché en Markdown.
+- **Sauvegarde automatique** : Le texte est sauvegardé dans le stockage local du navigateur, assurant la persistance des données.
+- **Récupération du contenu** : À chaque visite ou rechargement de la page, le contenu précédemment saisi est automatiquement chargé.
+- **Focus automatique** : La zone de texte est automatiquement focalisée lors du chargement de la page pour une saisie immédiate.
+
+## Configuration du Projet
+
+### Installation des dépendances
+
+```bash
 npm install
 ```
+#### Compilation et rechargement à chaud pour le développement
 
-### Compiles and hot-reloads for development
-```
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+#### Compilation et minification pour la production
+
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
+#### Linting et correction des fichiers
+
+```bash
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
